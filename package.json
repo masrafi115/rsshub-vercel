@@ -5,6 +5,9 @@
     "keywords": [
         "RSS"
     ],
+    "scripts": {
+    "postinstall": "puppeteer browsers install chrome"
+  }
     "homepage": "https://github.com/DIYgod/RSSHub#readme",
     "bugs": {
         "url": "https://github.com/DIYgod/RSSHub/issues"
